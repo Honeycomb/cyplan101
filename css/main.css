@@ -87,6 +87,28 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+  font-family: sans-serif;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+ul li:last-child {
+  margin-bottom: 0;
+}
+
+ul li a {
+  color: black;
+  font-size: 32px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
